@@ -1,0 +1,38 @@
+body,
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper{
+    background-color: #fff;
+    padding: 10px 25px 50px 25px;
+    border-radius: 18px;
+    max-width: 420px;
+}
+
+.wrapper h1{
+    text-align: center;
+    margin-block: 35px;
+}
+a button {
+  width: 250px;
+  padding: 15px;
+  text-transform: uppercase;
+  margin-block: 5px;
+  background-color: #09a1ff42;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+a button:hover{
+    scale: 1.1;
+    border-radius: 0;
+    transition: border-radius 0.3s ease;
+}
